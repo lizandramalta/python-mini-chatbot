@@ -1,28 +1,60 @@
 def get_responses():
     return {
+        # Categorias básicas
         "saudacao": [
-            "Olá! Como posso ajudar você hoje?",
-            "Oi! Em que posso ser útil?",
-            "Bem-vindo(a)! Como posso te auxiliar?"
+            "Olá! Bem-vindo ao seu assistente culinário! Como posso ajudar hoje?",
+            "Oi! Estou aqui para ajudar com suas dúvidas culinárias. O que deseja preparar?",
+            "Olá, chef! Procurando alguma receita especial hoje?"
         ],
         "despedida": [
-            "Tchau! Tenha um ótimo dia!",
-            "Até mais! Cuide-se!",
-            "Adeus! Espero conversar com você novamente em breve!"
+            "Até a próxima! Bom apetite!",
+            "Adeus! Espero que sua refeição fique deliciosa!",
+            "Tchau! Volte quando quiser descobrir novas receitas!"
         ],
         "agradecimento": [
-            "De nada!",
-            "Não há problema! Feliz em ajudar!",
-            "Disponível sempre que precisar!"
+            "De nada! Cozinhar é um prazer!",
+            "Por nada! Espero que a receita fique uma delícia!",
+            "Disponível sempre que precisar de inspiração na cozinha!"
         ],
         "duvida": [
-            "Poderia me fornecer mais detalhes sobre sua dúvida?",
-            "Entendi que você tem uma dúvida. Pode explicar melhor?",
-            "Vou fazer o possível para esclarecer sua dúvida. Poderia detalhar mais?"
+            "Não entendi bem. Você quer uma receita específica ou uma sugestão?",
+            "Poderia detalhar melhor? Está procurando receitas para qual ocasião?",
+            "Hmm, não compreendi. Você quer saber sobre ingredientes ou técnicas de preparo?"
+        ],
+        # Categorias específicas de culinária
+        "receita_geral": [
+            "Tenho várias receitas deliciosas! Você prefere algo rápido, saudável ou para impressionar convidados?",
+            "Adoraria ajudar com uma receita! Você tem algum ingrediente principal em mente?",
+            "Que tipo de prato você gostaria de preparar? Entrada, prato principal ou sobremesa?"
+        ],
+        "receita_rapida": [
+            "Para uma refeição rápida, que tal um macarrão ao alho e óleo? Fica pronto em 15 minutos!",
+            "Omelete é sempre uma opção rápida! Bata 2 ovos, adicione temperos e está pronto em 5 minutos.",
+            "Uma salada de atum é super rápida: misture atum em lata, tomate, cebola e temperos a gosto."
+        ],
+        "receita_saudavel": [
+            "Para uma refeição saudável, experimente um bowl de quinoa com legumes grelhados e abacate.",
+            "Salada de grão-de-bico com tomate, pepino e azeite de oliva é nutritiva e fácil de fazer!",
+            "Um salmão grelhado com aspargos é uma excelente opção saudável e rica em nutrientes."
+        ],
+        "receita_vegetariana": [
+            "Para um prato vegetariano delicioso, experimente um curry de grão-de-bico com leite de coco.",
+            "Risoto de cogumelos é uma ótima opção vegetariana cheia de sabor!",
+            "Berinjela à parmegiana sem carne é um clássico vegetariano que agrada a todos."
+        ],
+        "receita_lowcarb": [
+            "Para uma refeição low carb, experimente um salmão grelhado com legumes assados.",
+            "Omelete com espinafre e queijo é uma opção low carb nutritiva e rápida.",
+            "Abobrinha recheada com carne moída e queijo é uma delícia low carb!"
+        ],
+        "tecnica_culinaria": [
+            "Para cortar cebola sem chorar, tente colocá-la na geladeira por 30 minutos antes.",
+            "Para um arroz soltinho, lave bem os grãos antes de cozinhar para remover o amido.",
+            "Para assar carnes uniformemente, deixe-as atingir a temperatura ambiente antes de ir ao forno."
         ],
         "padrao": [
-            "Desculpe, não entendi o que você disse.",
-            "Poderia reformular sua pergunta?",
-            "Não tenho certeza de como responder a isso."
+            "Desculpe, não entendi bem. Você poderia perguntar sobre uma receita específica ou ingredientes?",
+            "Não tenho certeza do que você precisa. Posso sugerir receitas por categoria ou ingredientes.",
+            "Hmm, não captei. Posso ajudar com receitas, dicas culinárias ou sugestões de pratos."
         ]
     }

@@ -1,4 +1,4 @@
-from bot.chatbot import Chatbot
+from src.bot.chatbot import Chatbot
 
 def main():
     chatbot = Chatbot()
